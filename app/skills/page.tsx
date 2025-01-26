@@ -1,9 +1,13 @@
 import { Card } from "@/components/ui/card";
-import { CircleIcon, CodeIcon, ToolIcon } from "lucide-react";
+import { 
+  Circle,
+  Code,
+  Wrench
+} from "lucide-react";
 
 const skills = {
   Blockchain: {
-    icon: <CircleIcon className="h-8 w-8 text-primary" />,
+    icon: <Circle className="h-8 w-8 text-primary" />,
     description: "Expertise in blockchain development and smart contract implementation",
     skills: [
       { 
@@ -29,7 +33,7 @@ const skills = {
     ]
   },
   "Web Development": {
-    icon: <CodeIcon className="h-8 w-8 text-primary" />,
+    icon: <Code className="h-8 w-8 text-primary" />,
     description: "Full-stack development with modern frameworks and technologies",
     skills: [
       { 
@@ -55,7 +59,7 @@ const skills = {
     ]
   },
   Tools: {
-    icon: <ToolIcon className="h-8 w-8 text-primary" />,
+    icon: <Wrench className="h-8 w-8 text-primary" />,
     description: "Proficiency in development tools and deployment platforms",
     skills: [
       { 
