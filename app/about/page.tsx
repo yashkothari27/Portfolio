@@ -26,7 +26,7 @@ export default function About() {
             {/* Resume Download Section */}
             <div className="pt-6">
               <Button asChild size="lg" className="group animate-scale-up">
-                <Link href="/YashKothari_Resume.pdf" target="_blank">
+                <Link href="https://drive.google.com/file/d/1fbrG7eyaW7G8mfSRXEGnWPmNoA0rFcYa/view?usp=sharing" target="_blank">
                   <FileText className="mr-2 h-5 w-5" />
                   View Resume
                   <Download className="ml-2 h-4 w-4 transition-transform group-hover:translate-y-1" />
@@ -60,11 +60,11 @@ export default function About() {
           {[
             { name: "Solidity", color: "from-blue-500/20 to-purple-500/20" },
             { name: "JavaScript", color: "from-yellow-500/20 to-orange-500/20" },
-            { name: "TypeScript", color: "from-blue-500/20 to-cyan-500/20" },
-            { name: "Python", color: "from-blue-500/20 to-green-500/20" },
-            { name: "React", color: "from-cyan-500/20 to-blue-500/20" },
-            { name: "Node.js", color: "from-green-500/20 to-emerald-500/20" },
-            { name: "Web3.js", color: "from-orange-500/20 to-red-500/20" },
+            { name: "Node.js", color: "from-blue-500/20 to-cyan-500/20" },
+            { name: "Web3.js", color: "from-blue-500/20 to-green-500/20" },
+            { name: "MySQL", color: "from-cyan-500/20 to-blue-500/20" },
+            { name: "MongoDB", color: "from-green-500/20 to-emerald-500/20" },
+            { name: "Docker", color: "from-orange-500/20 to-red-500/20" },
             { name: "Hardhat", color: "from-yellow-500/20 to-amber-500/20" }
           ].map((tech, index) => (
             <Card 

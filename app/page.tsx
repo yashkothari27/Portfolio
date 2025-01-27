@@ -34,7 +34,7 @@ export default function Home() {
               </Button>
             </div>
             <div className="flex gap-4 pt-4">
-              <Link href="https://linkedin.com/in/yashkothari" target="_blank">
+              <Link href="https://www.linkedin.com/in/kyash27/" target="_blank">
                 <Button 
                   variant="ghost" 
                   size="icon" 
@@ -43,7 +43,7 @@ export default function Home() {
                   <Linkedin className="h-5 w-5" />
                 </Button>
               </Link>
-              <Link href="https://github.com/yashkothari" target="_blank">
+              <Link href="https://github.com/yashkothari27" target="_blank">
                 <Button 
                   variant="ghost" 
                   size="icon" 

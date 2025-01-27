@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Navigation } from '@/components/navigation';
+import { Footer } from '@/components/footer';
 import { Toaster } from '@/components/ui/toaster';
 
 const inter = Inter({ subsets: ['latin'] });
@@ -21,9 +22,10 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <div className="relative min-h-screen">
+          <div className="relative min-h-screen flex flex-col">
             <Navigation />
-            <main className="pt-16">{children}</main>
+            <main className="flex-1 pt-16">{children}</main>
+            <Footer />
             <Toaster />
           </div>
         </ThemeProvider>
